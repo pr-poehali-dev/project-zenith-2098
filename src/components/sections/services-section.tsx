@@ -17,29 +17,29 @@ export function ServicesSection() {
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
             Услуги
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что входит в ваш праздник</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Шоу-игры на экране",
+              description: "Интерактивные раунды, задания и юмор — как на телешоу. Подходит для любого возраста",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Крутые ведущие",
+              description: "Профессионалы, которые удерживают внимание и делают атмосферу по-настоящему праздничной",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Профессиональное караоке",
+              description: "Качественный звук и огромная база песен — каждый почувствует себя звездой сцены",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Банкетная зона",
+              description: "Уютное пространство лофта для вкусной еды и тёплого общения с близкими",
               direction: "bottom",
             },
           ].map((service, i) => (
